@@ -17,6 +17,6 @@ int main()
     }
     cout<<"Reversed Array is: ";
     for(i=0;i<n;i++){
-        cout<<rev[i];
+        cout<<rev[i]<<" ";
     }
 }
