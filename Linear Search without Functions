@@ -1,0 +1,29 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main(){
+    int n,i;
+    cout<<"Enter the number of elements: "<<endl;
+    cin>>n;
+    int A[n];
+    cout<<"Elements are:"<<endl;
+    for(i=0;i<n;i++){
+        cin>>A[i];
+    }
+    cout<<"Linear Search"<<endl;
+    int key;
+    cout<<"key: "<<endl;
+    cin>>key;
+    for(i=0;i<n;i++){
+        if(key==A[i]){
+            cout<<"Key "<<key<<" at index "<<i;
+            return 0;
+        }
+        
+    }
+    cout<<"Key "<<key<<" not found in the array"<<endl;
+    return -1;
+    
+}
